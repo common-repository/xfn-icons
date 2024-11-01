@@ -1,0 +1,46 @@
+a[rel~="me"] {
+        background: url(xfn-me.png) center right no-repeat;
+        padding-right: 21px;
+}
+
+a[rel~="friend"],
+a[rel~="contact"],
+a[rel~="aquaintance"]{
+        background: url(xfn-friend.png) center right no-repeat;
+        padding-right: 21px;
+}
+
+a[rel~="friend"][rel~="met"],
+a[rel~="contact"][rel~="met"],
+a[rel~="aquaintance"][rel~="met"]{
+        background: url(xfn-friend-met.png) center right no-repeat;
+        padding-right: 26px;
+}
+
+a[rel~="colleague"],
+a[rel~="co-worker"]{
+        background: url(xfn-colleague.png) center right no-repeat;
+        padding-right: 21px;
+}
+
+a[rel~="colleague"][rel~="met"],
+a[rel~="co-worker"][rel~="met"]{
+        background: url(xfn-colleague-met.png) center right no-repeat;
+        padding-right: 26px;
+}
+
+a[rel~="sweetheart"],
+a[rel~="muse"],
+a[rel~="crush"],
+a[rel~="date"]{
+        background: url(xfn-sweetheart.png) center right no-repeat;
+        padding-right: 21px;
+}
+
+a[rel~="sweetheart"][rel~="met"],
+a[rel~="muse"][rel~="met"],
+a[rel~="crush"][rel~="met"],
+a[rel~="date"][rel~="met"]{
+        background: url(xfn-sweetheart-met.png) center right no-repeat;
+        padding-right: 26px;
+}
